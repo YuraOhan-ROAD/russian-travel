@@ -1,0 +1,14 @@
+.cover {
+    margin: 0 auto;
+    max-width: 1184px;
+    width: calc(100% - 96px);
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover {
+      width: 100%;
+    }
+  }
